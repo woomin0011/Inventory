@@ -8,7 +8,7 @@ public class UIInventory : MonoBehaviour
     public GameObject inventory;
     public Transform slotpanel;
 
-    []
+    
     void Start()
     {
         
