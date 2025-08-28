@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
-public class UIInventory : MonoBehaviour
+public class ItemSlot : MonoBehaviour
 {
-    public ItemSlot[] Slots;
-    public GameObject inventory;
-    public Transform slotpanel;
+    public ItemData item;
 
-    []
+    public UIInventory Inventory;
+
+    public int index;
+    public bool equpipped;
     void Start()
     {
         

@@ -8,15 +8,30 @@ public class Player : MonoBehaviour
     [SerializeField] private int playerLevel;
     [SerializeField] private int playerHealth;
     [SerializeField] private int playerExperience;
+    [SerializeField] private int playerAttack;
+    [SerializeField] private int playerDefense;
+    [SerializeField] private int playerCritical;
     [SerializeField] private int playerGold;
 
+    public string PlayerName => playerName;
+    public int PlayerLevel => playerLevel;
+    public int PlayerHealth => playerHealth;
+    public int PlayerExperience => playerExperience;
+    public int PlayerAttack => playerAttack;
+    public int PlayerDefense => playerDefense;
+    public int PlayerCritical => playerCritical;
 
-    public Player(string playerName , int playerLevel , int playerHealth, int playerExperience, int playerGold)
+    public int PlayerGold => playerGold;
+
+    public void Initialize(string playerName , int playerLevel , int playerHealth, int playerExperience, int playerGold , int attack , int defense,int critical)
     {
         this.playerName = playerName;
         this.playerLevel = playerLevel;
         this.playerHealth = playerHealth;
         this.playerExperience = playerExperience;
         this.playerGold = playerGold;
+        this.playerAttack = attack;
+        this.playerDefense = defense;
+        this.playerCritical = critical;
     }
 }

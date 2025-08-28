@@ -5,14 +5,27 @@ using UnityEngine;
 public class GamaManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static GamaManager Instance { get; private set; }
+    public Player Player { get; private set; }
 
-    // Update is called once per frame
-    void Update()
+    [SerializeField] private Player player;
+
+    private void Start()
     {
-        
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+            player.Initialize("Hero", 1, 100, 0, 1000, 35, 40, 25);
+
+            Player = player;
+
+            UIManager.Instance.UImain.SetPlayerData(Player);
+            UIManager.Instance.UIstatus.SetPlayerData(Player);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 }

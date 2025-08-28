@@ -2,13 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIInventory : MonoBehaviour
+public class ItemData : MonoBehaviour
 {
-    public ItemSlot[] Slots;
-    public GameObject inventory;
-    public Transform slotpanel;
-
-    []
+    // Start is called before the first frame update
     void Start()
     {
         
