@@ -20,6 +20,12 @@ public class GamaManager : MonoBehaviour
 
             Player = player;
 
+            ItemData armor1 = Resources.Load<ItemData>("Data/Item_Armor1");
+            if (armor1 != null)
+            {
+                Player.AddItem(armor1);
+            }
+
             UIManager.Instance.UImain.SetPlayerData(Player);
             UIManager.Instance.UIstatus.SetPlayerData(Player);
         }
