@@ -5917,6 +5917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item_Armor3
       objectReference: {fileID: 0}
+    - target: {fileID: 8481802673709958693, guid: ae55455ec0dede04ab56377d159a63a7, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c40dcc065533c04cba110a2b61c344b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5974,6 +5978,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item_Armor1
       objectReference: {fileID: 0}
+    - target: {fileID: 3559549606462083254, guid: 34f06fca6b30b1c4e8bf5aea8113ce09, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 35c1f9e9707deb740bf05c58822d5136, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5987,6 +5995,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4458669883714127982, guid: 79f519957f9cde14b813cae7e0a64acd, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 38bd265b0a2c753438a463a07429fb20, type: 2}
     - target: {fileID: 5748551880691043300, guid: 79f519957f9cde14b813cae7e0a64acd, type: 3}
       propertyPath: m_Name
       value: Item_Wand
@@ -6088,6 +6100,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5428353375792810482, guid: 3a0e019f956612a48983d6ea5c1dd8ff, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 5d9e7dd3d67eac543947be9e282d8c1b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6203,6 +6219,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 715757612938679603, guid: d509cd5e83528124abfdaf4cd847240f, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 572a74e29f4a1dd42b72d6c78e93763e, type: 2}
     - target: {fileID: 3079775229768276899, guid: d509cd5e83528124abfdaf4cd847240f, type: 3}
       propertyPath: m_Name
       value: Item_Armor2
@@ -6264,6 +6284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item_Sword
       objectReference: {fileID: 0}
+    - target: {fileID: 2781713678467826708, guid: 1b9aceeda7068844bb7676e6a7e76fa4, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 991e83b984cf0c6448f07aa9ef72fc35, type: 2}
     - target: {fileID: 7709492238062097066, guid: 1b9aceeda7068844bb7676e6a7e76fa4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
