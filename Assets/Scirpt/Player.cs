@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public ItemData Itemdata;
     [SerializeField] private string playerName;
     [SerializeField] private int playerLevel;
     [SerializeField] private int playerHealth;

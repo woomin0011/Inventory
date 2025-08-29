@@ -38,4 +38,9 @@ public class UIInventory : MonoBehaviour
             slotList.Add(newSlot);
         }
     }
+
+    public void Onback()
+    {
+        UIManager.Instance.UIinventory.gameObject.SetActive(false);
+    }
 }

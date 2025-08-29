@@ -14,10 +14,11 @@ public class ItemObject : MonoBehaviour, IInteractable
 
     public string GetInteractPrompt()
     {
-        throw new System.NotImplementedException();
+        string str = $"{data.Name}";
+        return str;
     }
     public void OnInteract()
     {
-        throw new System.NotImplementedException();
+        
     }
 }
